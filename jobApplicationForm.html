@@ -7,6 +7,24 @@
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<style>
+    .button {
+    background-color: rgb(48, 99, 207);
+    border-radius: 12px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }  
+    .botton:hover{
+        background-color: rgb(48, 99, 207);
+        color: white;
+    } 
 	input[type=text] {
 		width: 130px;
 		box-sizing: border-box;
@@ -290,7 +308,7 @@
 			}
 		}
 	</script>
-	<botton class="btn btn-primary btn-sm" id="mybar" onclick="move()">save</botton> 
+	<botton class="botton botton" onclick="move()">save</botton> 
 	<p>&nbsp;</p>
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
